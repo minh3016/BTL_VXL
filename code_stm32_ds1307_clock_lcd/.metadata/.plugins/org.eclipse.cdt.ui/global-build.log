@@ -1,0 +1,103 @@
+19:52:26 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stm32_ds1307_clock_lcd.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\BTL_ViXuLy\code_stm32_ds1307_clock_lcd (1)\code_stm32_ds1307_clock_lcd\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32_ds1307_clock_lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32_ds1307_clock_lcd.elf
+ 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+arm-none-eabi-objdump -h -S  stm32_ds1307_clock_lcd.elf  > "stm32_ds1307_clock_lcd.list"
+arm-none-eabi-objcopy  -O ihex  stm32_ds1307_clock_lcd.elf  "stm32_ds1307_clock_lcd.hex"
+arm-none-eabi-objcopy  -O binary  stm32_ds1307_clock_lcd.elf  "stm32_ds1307_clock_lcd.bin"
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32_ds1307_clock_lcd.bin
+Finished building: stm32_ds1307_clock_lcd.hex
+ 
+ 
+Finished building: stm32_ds1307_clock_lcd.list
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+19:53:05 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+19:54:49 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+21:52:25 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+21:53:25 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+21:54:34 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+21:56:09 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+21:57:50 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+21:58:05 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+21:59:50 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 

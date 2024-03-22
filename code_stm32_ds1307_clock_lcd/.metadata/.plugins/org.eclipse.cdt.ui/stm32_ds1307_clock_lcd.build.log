@@ -1,0 +1,12 @@
+21:59:50 **** Incremental Build of configuration Debug for project stm32_ds1307_clock_lcd ****
+make -j12 all 
+arm-none-eabi-size   stm32_ds1307_clock_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26112	    152	   1976	  28240	   6e50	stm32_ds1307_clock_lcd.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O ihex stm32_ds1307_clock_lcd.elf stm32_ds1307_clock_lcd.hex
+ 
+
+21:59:50 Build Finished. 0 errors, 0 warnings. (took 364ms)
+
